@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aerospace Club - Jadavpur University</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background: #004080;
+            color: white;
+            padding: 10px 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        header h1 {
+            margin: 0;
+        }
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+        }
+        nav ul li {
+            margin: 0 10px;
+        }
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+        }
+        nav ul li a:hover {
+            text-decoration: underline;
+        }
+        section {
+            padding: 20px;
+        }
+        .hero {
+            background: url('hero-image.jpg') no-repeat center center/cover;
+            color: white;
+            text-align: center;
+            padding: 100px 20px;
+        }
+        .hero h2 {
+            margin: 0;
+        }
+        .cards {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+        }
+        .card {
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            padding: 15px;
+            text-align: center;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        footer {
+            background: #004080;
+            color: white;
+            text-align: center;
+            padding: 10px 20px;
+            margin-top: 20px;
+        }
+        footer a {
+            color: #ffd700;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Aerospace Club - JU</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#team">Team</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#events">Events</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <h2>Welcome to the Aerospace Club</h2>
+        <p>Exploring the skies, building the future.</p>
+    </section>
+
+    <section id="about">
+        <h2>About Us</h2>
+        <p>The Aerospace Club of Jadavpur University is dedicated to fostering innovation, learning, and exploration in the field of aeronautics and space technology. Our mission is to inspire students and nurture their passion for aerospace engineering.</p>
+    </section>
+
+    <section id="team">
+        <h2>Our Team</h2>
+        <div class="cards">
+            <div class="card">
+                <h3>Himopravo Choudhary</h3>
+                <p>President</p>
+            </div>
+            <div class="card">
+                <h3>Navoneel Karmakar</h3>
+                <p>Technical Lead</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects">
+        <h2>Our Projects</h2>
+        <div class="cards">
+            <div class="card">
+                <h3>RC Plane Development</h3>
+                <p>Design and testing of high-performance RC planes.</p>
+            </div>
+            <div class="card">
+                <h3>CANSAT Design</h3>
+                <p>Exploring the fundamentals of Cansat.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="events">
+        <h2>Upcoming Events</h2>
+        <ul>
+        </ul>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>Email: <a href="mailto:aerospaceclub@jadavpuruniversity.edu">aerospaceclub@jadavpuruniversity.edu</a></p>
+        <p>Follow us on <a href="#">Instagram</a> and <a href="#">Facebook</a>.</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Aerospace Club - Jadavpur University. Designed with passion.</p>
+    </footer>
+</body>
+</html>
